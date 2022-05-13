@@ -1,0 +1,16 @@
+server:
+  port: "${SERVER_PORT:8080}"
+  servlet:
+    context-path: /chomikuj-bot
+
+
+#spring:
+#  security:
+#    user:
+      # default user name is user but can be changed by
+#      name: admin
+#      password: password
+
+# links available
+# /login
+# /logout
